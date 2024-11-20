@@ -3,7 +3,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-22.04
-    name: Test
+    name: Проверка форматирования на соответствие PEP8
     steps:
     - uses: actions/checkout@v4
     - run: pip install black
